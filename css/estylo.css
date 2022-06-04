@@ -1,0 +1,68 @@
+body { 
+    background-image:url('../IMAGENES/a.jpg');
+    background-size:cover;
+    font-size:60px;
+    padding: 50px;
+    
+      
+    color:white 
+    
+     }
+
+    
+    header {
+        background-color:rgba(1, 1, 158, 0.212);;
+      display:flex;
+      align-items: center;
+      border-radius:50px;
+    
+    }
+    #logo{
+        width:  200px;
+        height:  200px;
+        border-radius:100%;
+        font-size:330px;
+       
+    }
+    #lista button {
+        background-color:rgb(19, 162, 223);
+        display: block;
+        width : 100%; 
+        font-size:50px;
+        padding:80px;
+        
+        border-radius:50px
+      }
+      #lista button:hover{
+        background-color:rgb(74, 103, 136)
+      }
+       
+
+    
+    .datos-generales{
+       background-color:rgba(1, 1, 158, 0.212);
+       padding-left:50px;
+       border-radius:10px;
+       border-radius:50px;
+       padding-right:50px;
+       }
+       
+    a{
+      color:aqua;
+     }
+    #final{
+        background-color:rgba(1, 1, 158, 0.212);
+        border-radius:50px;  
+    }
+a img{
+   height: 100px;
+  }
+  .alg{
+      width: 750px;
+      height:500px
+  }
+  a img{
+    width: 500px;
+    height:500px  
+  }
+ 
