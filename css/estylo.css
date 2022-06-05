@@ -1,5 +1,5 @@
 body { 
-    background-image:url('../IMAGENES/a.jpg');
+    background:black;
     background-size:cover;
     font-size:60px;
     padding: 50px;
@@ -34,7 +34,7 @@ body {
         border-radius:50px
       }
       #lista button:hover{
-        background-color:rgb(74, 103, 136)
+        background-color:rgb(19, 19, 204);
       }
        
 
@@ -65,4 +65,8 @@ a img{
     width: 500px;
     height:500px  
   }
+ #contrastante {
+  font-size:100px;
+  color:red;
+ }
  
