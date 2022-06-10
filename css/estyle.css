@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body { 
     background:black;
-    font-size:60px;
+    font-size: 4.5em;
     padding: 5mm;
     color:white;
     font-family: 'Kdam Thmor Pro' 
@@ -15,32 +15,31 @@ body {
       display:flex;
       align-items: center;
       border-radius:50px;
-      font-family: 'Press Start 2P'
+      font-family: 'Press Start 2P';
+      text-shadow: 5px 5px red;
+      height: 12cm;
     }
     #logo{
+      border-bottom-style: solid;
         width:  9.50cm;
         height:  9.50cm;
         border-radius:100%;
-        font-size:330px;
-       margin-left:10mm;
-       margin-right:1cm;
-        border-bottom-style: solid;
-       border-color:white;
-        border-width:5mm;
+        margin-left:10mm;
+        margin-right:1cm;
+    
       }
     #lista button {
         background-color:rgb(19, 162, 223);
         border-radius: 50px;
         display: block;
         width : 100%; 
-        font-size:50px;
+        font-size:.7em;
         padding:5cm;
         color:black;
-        border-style:none;
         border-bottom-style: solid;
         border-color:white;
          border-width: 5mm;
-         font-family: 'Kdam Thmor Pro' 
+         font-family: 'Kdam Thmor Pro'; 
        }
       #lista button:hover{
         background-color:rgb(19, 19, 204);
@@ -49,7 +48,7 @@ body {
 
     
     .datos-generales{
-      padding-left:3cm;
+      padding:3cm;
        border-radius:50px;
      }
        
@@ -59,6 +58,7 @@ body {
 
     #h{
       display: flex;
+      margin-top:2cm;
     }
   .alg{
       width: 70cm;
@@ -66,14 +66,13 @@ body {
       margin-left: 15cm;
   }
  #contrastante {
-  font-size:100px;
+  font-size:2em;
   color:red;
 text-align: center;
  }
  
  .caja{
 text-align: center;
-font-size: 60px;
 margin:10mm;
 border-style: solid;
 color:darkblue;
