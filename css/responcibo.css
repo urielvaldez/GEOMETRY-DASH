@@ -1,0 +1,220 @@
+
+@media  screen and (max-width:1280px) {
+    .fondo{
+        border-radius: 5px;
+        padding-left:5px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .lista button h2{
+        padding: 20px;
+        font-size: 18px;
+    }
+    .datos-generales{
+        font-size: 20px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;   
+         }
+        
+}
+@media  screen and (max-width:1024px) {
+    .fondo{
+        border-radius: 5px;
+        padding-left:5px;
+    }
+    .lista button h2{
+        padding: 20px;
+        font-size: 27px;
+    }
+}
+@media  screen and (max-width:912px) {
+    header h1{
+        font-size: 30px;
+    }
+    .fondo{
+        border-radius: 5px;
+        padding-left:5px;
+    }
+    .datos-generales{
+        font-size: 16px;
+    }
+    .lista button h2{
+        padding: 20px;
+        font-size: 18px;
+    }
+    .caja img{
+        width:  100px;
+        height: 100px; 
+    }
+}
+@media  screen and (max-width:820px) {
+    header h1{
+        font-size: 30px;
+    }
+    .fondo{
+        border-radius: 5px;
+        padding-left:5px;
+    }
+    .caja{
+        font-size: 8px;
+        margin:1px
+    }
+    .caja img{
+        width: 70px;
+        height: 70px;
+    }
+       
+}
+@media  screen and (max-width:665px) {
+    .caja img{
+        width:  80px;
+        height: 80px; 
+    }
+    .caja{
+        font-size: 10px;
+        margin:1px
+    }
+}
+@media  screen and (max-width:540px) {
+    .datos-generales{
+        font-size: 12px;
+    }
+}
+@media  screen and (max-width:515px) {
+    .caja img{
+        width:  50px;
+        height: 50px; 
+    }
+    .caja{
+        font-size: 8px;
+        margin:1px
+    }
+
+}
+@media  screen and (max-width:475px) {
+header h1{
+    font-size: 20px;
+}
+}
+@media  screen and (max-width:424px) {
+   body{
+    padding: 2px;
+   }
+    .logo{
+width: 50px;
+height: 50px;   
+ }
+ header h1{
+font-size: 20px;
+ }
+ header{
+    text-shadow: 2px 2px red;
+ }
+ .lista button h2{
+    padding: 5px;
+    font-size: 10px;
+}
+    .datos-generales{
+        font-size: 8px;
+    }
+.caja{
+    font-size: 5px;
+    margin:1px
+}
+.caja img{
+    width: 50px;
+    height: 50px;
+}
+.fondo{
+    border-radius: 5px;
+    padding-left:5px;
+}
+}
+.final{
+    border-radius: 5px; 
+}
+@media  screen and (max-width:412px) {
+    .datos-generales{
+        font-size: 10px;
+    }
+    .lista button h2{
+        padding: 16px;
+        font-size: 18px;
+    }
+    .caja{
+        font-size: 8px;
+        margin:1px
+    }
+    .caja img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media  screen and (max-width:393px) {
+    .caja img{
+        width: 50px;
+        height: 50px;
+    }
+    .caja{
+        font-size: 6px;
+        margin:1px
+    }
+}
+@media  screen and (max-width:375px) {
+    .caja img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media  screen and (max-width:320px) {
+    header h1{
+        font-size: 18px;
+    }
+    .logo{
+        width: 35px;
+        height: 35px; 
+    }
+    .caja{
+        font-size: 5px;
+        margin:1px
+    }
+    .caja img{
+        width: 30px;
+        height: 30px; }
+        .datos-generales{
+           font-size: 6px;
+        }
+        .lista button h2{
+            padding: 10px;
+            font-size: 10px;
+        }
+        .final{
+            border-radius: 12px;
+        }
+        .fondo{
+            border-radius: 5px;
+        }
+}
+
+
+@media  screen and (max-width:280px) {
+    .lista button h2{
+        padding: 6px;
+        font-size: 12px;
+    }
+    .datos-generales{
+        font-size: 6px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    .caja img{
+        width:  40px;
+        height: 40px; 
+    }
+}
+
