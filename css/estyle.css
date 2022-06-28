@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body { 
     background:black;
-    font-size: 10px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 5px;
     color:white;
     font-family: 'Kdam Thmor Pro'; 
      }
@@ -14,7 +14,7 @@ body {
         background-color:rgba(1, 1, 158, 0.212);
       display:flex;
       align-items: center;
-      border-radius:50px;
+      border-radius:20px;
       font-family: 'Press Start 2P';
       text-shadow: 5px 5px red;
       padding: 5px;
@@ -29,40 +29,38 @@ body {
     
       }
     .lista button {
-        background-color:rgb(19, 162, 223);
+      background-color:rgb(19, 162, 223);
         border-radius: 10px;
         display: block;
         width : 100%; 
-        font-size:10px;
-        padding:2px;
+        font-size:18px;
+        padding:5px;
         color:black;
         border-bottom-style: solid;
         border-color:white;
         border-width:5px;
-         font-family: 'Kdam Thmor Pro'; 
+         font-family: 'Kdam Thmor Pro';
+        margin: 5px; 
+        cursor:pointer;
        }
-      #lista button:hover{
-        background-color:rgb(19, 19, 204);
+      .lista button:hover{
+        background-color:rgb(14, 14, 173);
       }
     
     .datos-generales{
+     font-size: 20px;
       padding:20px;
-       border-radius:50px;
      }
        
     a{
       color:aqua;
      }
 
-    #h{
-      display: flex;
-      margin-top:15px;
-    }
-  .alg{
+  .img-principal{
       width: 150px;
       height:120px;
   }
- #contrastante {
+ .contrastante {
   font-size:20px;
   color:red;
 text-align: center;
@@ -78,12 +76,9 @@ border-radius: 10px;
 font-family: 'Padauk';
  }
  .caja img{
-  width: 120px;
-  height:120px;
+  width:150px;
+  height:150px;
   border-radius:5px;
-}
-#d{
-display: flex;
 }
 .final{
   background-color:rgba(1, 1, 158, 0.212); 
@@ -91,12 +86,20 @@ display: flex;
  }
  .fondo{
   background-color:rgba(1, 1, 158, 0.212);
-  border-radius:50px;
+  border-radius:5px;
  }
   .caja a{
     text-decoration: none;
 
 }
-.c{
-  color:black
+
+#bot-info{
+  display: flex;
+  margin-top:15px;
+}
+#descargas{
+  display: flex;
+  }
+.center{
+  text-align: center;
 }
