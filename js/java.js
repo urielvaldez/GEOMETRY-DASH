@@ -38,3 +38,20 @@ function Word (){
     nivel_isla.innerHTML="Nivel-Dificultad";
     list.innerHTML="<li>Press Start-Normal</li><li>Nock Em-Hard</li><li>Power Trip-Harder</li>";
     }
+const btn_geo=document.querySelectorAll("button")[0];
+btn_geo.addEventListener("click",Dash);
+
+const btn_lite=document.querySelectorAll("button")[1];
+btn_lite.addEventListener("click",Lite );
+
+const btn_mel=document.querySelectorAll("button")[2];
+btn_mel.addEventListener("click",Meltdown);
+
+const btn_wo=document.querySelectorAll("button")[3];
+btn_wo.addEventListener("click",Word);
+
+const btn_sub=document.querySelectorAll("button")[4];
+btn_sub.addEventListener("click",Subzero);
+
+
+
