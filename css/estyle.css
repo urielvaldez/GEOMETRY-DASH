@@ -28,20 +28,24 @@ body {
         margin-right:20px;
     
       }
+      .logo:hover{
+        transform:rotate(360deg);
+        transition:2s;
+      }
     .lista button {
-      background-color:rgb(19, 162, 223);
-        border-radius: 10px;
-        display: block;
-        width : 100%; 
-        font-size:18px;
-        padding:5px;
-        color:black;
-        border-bottom-style: solid;
-        border-color:white;
-        border-width:5px;
-         font-family: 'Kdam Thmor Pro';
-        margin: 5px; 
-        cursor:pointer;
+    background-color:rgb(19, 162, 223);
+    border-radius: 10px;
+    display: block;
+    width : 100%; 
+    font-size:18px;
+    padding:5px;
+    color:black;
+    border-bottom-style: solid;
+    border-color:white;
+    border-width:5px;
+    font-family: 'Kdam Thmor Pro';
+    margin: 5px; 
+    cursor:pointer;
        }
       .lista button:hover{
         background-color:rgb(14, 14, 173);
@@ -56,50 +60,26 @@ body {
       color:aqua;
      }
 
-  .img-principal{
-      width: 150px;
-      height:120px;
+  #img-principal{
+      width: 300px;
+     
   }
- .contrastante {
-  font-size:20px;
-  color:red;
-text-align: center;
- }
  
- .caja{
-text-align: center;
-margin:5px;
-border-style: solid;
-color:darkblue;
-background-color:darkblue;
-border-radius: 10px;
-font-family: 'Padauk';
- }
- .caja img{
-  width:150px;
-  height:150px;
-  border-radius:5px;
-}
-.final{
-  background-color:rgba(1, 1, 158, 0.212); 
-  border-radius: 50px;
- }
+ 
+ 
+ 
+
  .fondo{
   background-color:rgba(1, 1, 158, 0.212);
   border-radius:5px;
  }
-  .caja a{
-    text-decoration: none;
-
-}
+ 
 
 #bot-info{
   display: flex;
   margin-top:15px;
 }
-#descargas{
-  display: flex;
-  }
+
 .center{
   text-align: center;
 }
